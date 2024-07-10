@@ -11,6 +11,7 @@ body{
 .logo img{
     border-radius: 50%;
 }
+
 .navbar{
     display: flex;
     align-items: center; 
@@ -319,12 +320,17 @@ ul{
 @media only screen and (max-width: 800px){
     nav ul{
         position :absolute;
-        top: 70px;
-        left: 0;
+        top: 100px;
+        /* top: 0px; */
+        /* left: 0; */
+        right: 0px;
         background: #333;
-        width: 100%;
+        /* width: 100%; */
+        width: 30%;
         overflow: hidden;
         transition:max-height 0.5s;
+        
+        border-radius: 5%;
 
     }
     nav ul li{
@@ -339,8 +345,11 @@ ul{
     .menu-icon{
         display: block;
         cursor: pointer;
+        
+        
 
     }
+
 }
 
 
